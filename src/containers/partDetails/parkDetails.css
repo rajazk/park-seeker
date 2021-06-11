@@ -1,0 +1,105 @@
+.imagesWrapper {
+  display: flex;
+  /* height: 550px; */
+}
+
+.mainImage {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mainImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.imagesList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.imagesList > div {
+  width: 50%;
+  height: 275px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.imagesList img {
+  width: 100%;
+  height: 100%;
+}
+
+.operatingWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.operatingHours {
+  display: inline-flex;
+}
+
+.operatingHours .day {
+  text-transform: capitalize;
+  width: 100px;
+}
+
+.operatingHours .hours {
+  width: 162px;
+}
+
+.contactWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.newsList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsList ul li {
+  line-height: 1.75;
+}
+
+.parkSection {
+  display: flex;
+  gap: 40px;
+}
+
+.detailsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parkDes,
+.mapWrapper {
+  width: 50%;
+}
+
+.mapWrapper > div {
+  height: 500px !important;
+}
+
+.vote {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.vote div {
+  display: flex;
+  align-items: center;
+}
+
+.vote img {
+  width: 32px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.vote .disabled {
+  cursor: no-drop;
+}
